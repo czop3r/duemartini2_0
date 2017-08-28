@@ -1,0 +1,197 @@
+/*
+
+@Auhor Fuertigo.pl (Kamil Chojnicki)
+
+Niniejszy dokument jest integralną częśćią kursu pt. Moja pierwsza Strona internetowa | Kurs HTML dla początkujących. Jego użycie oznacza akceptację regulaminu serwisu Fuertigo.pl. Dokument jest materiałem szkoleniowym i jest chroniony prawami autorskimi. Zabrania się kopiowania, rozpowszechniana dokumentu bez uprzedniej zgody autora.
+
+KOLORY
+
+#fbfbfb bardzo jasny szary (tło referencji)
+#e5e5e5 szary jasny (separatory)
+#606060 szary
+#ae0000 czerwony ciemny
+#ff0000 czerwony krwisty
+#bbebff błękitny
+#007dab niebieski (hiperłącza)
+#003e55 ciemny niebieski (hiperłącza, :hover)
+
+
+*/
+
+body {
+	background-image: url("images/background.png");
+	background-repeat: repeat-x;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+	
+
+div#TOP { 
+	height: 147px; 
+}
+
+	div#logo {
+		float: left;
+		width: 400px;
+		height: 80px;
+		margin-top: 30px;
+	}
+	
+		div#logo img { 
+			float: left; 
+			margin: 13px 15px 10px 0px; 
+		}
+		
+		div#logo span:nth-of-type(1) {
+			font-size: 50px;
+			color: #000;
+			margin-top: 10px;
+		}
+		
+		div#logo span:nth-of-type(2) { 
+			color: #606060; 
+		}
+
+	div#fast_contact {
+		float: right;
+		width: 350px;
+		height: 60px;
+		margin-top: 50px;
+		text-align: right;
+	}
+		div#fast_contact img { 
+			float: right; 
+			margin: 10px 0 40px 20px; 
+		}
+		
+		div#fast_contact span:nth-of-type(1) { 
+			font-size: 24px; 
+			color: #ae0000; 
+		}
+		
+		div#fast_contact span:nth-of-type(2) { 
+			font-size: 24px; 
+		}
+		
+		
+#MENU {
+	background-image: url("images/menu_background.png");
+	text-align: center;
+	height: 62px;
+}
+		
+		#MENU a {
+			text-transform: uppercase;
+			color: #000;
+			text-decoration: none;
+			border-bottom: 5px solid #000;
+			border-right: 1px solid #fff;
+			font-size: 20px;
+			margin-left: -5px;
+			padding: 15px 20px 10px;
+			line-height: 72px;
+		}
+		
+			div#MENU a:hover { 
+				color: #ff0000; 
+			}
+			
+			div#MENU a.active { 
+				border-bottom:  5px solid #ff0000; 
+			}
+			
+			div#MENU a:first-of-type { 
+				border-left: 1px solid #fff; 
+			}
+
+
+div#slider_index {
+	height: 317px;
+	background-image: url("images/slider_index.jpg");
+}
+
+	div#slider_index h1 {
+		margin: 0;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 10px;
+		font-size: 54px;
+		font-weight: normal;
+	}
+	
+	div#slider_index span {
+		text-align: center;
+		display: block;
+		color: #bbebff;
+		font-size: 27px;
+	}
+	
+	
+div#slider_about_us {
+	height: 180px;
+	background-image: url("images/slider_about_us.jpg");
+}
+
+	div#slider_about_us h1 {
+		margin: 0;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 10px;
+		font-size: 54px;
+		font-weight: normal;
+	}
+	
+	div#slider_about_us span {
+		text-align: center;
+		display: block;
+		color: #bbebff;
+		font-size: 27px;
+	}
+	
+div#slider_services {
+	height: 180px;
+	background-image: url("images/slider_services.jpg");
+}
+
+	div#slider_services h1 {
+		margin: 0;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 10px;
+		font-size: 54px;
+		font-weight: normal;
+	}
+	
+	div#slider_services span {
+		text-align: center;
+		display: block;
+		color: #bbebff;
+		font-size: 27px;
+	}
+	
+div#slider_contact {
+	height: 180px;
+	background-image: url("images/slider_contact.jpg");
+}
+
+	div#slider_contact h1 {
+		margin: 0;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 10px;
+		font-size: 54px;
+		font-weight: normal;
+	}
+	
+	div#slider_contact span {
+		text-align: center;
+		display: block;
+		color: #bbebff;
+		font-size: 27px;
+	}
+
+
+
+
